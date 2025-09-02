@@ -53,13 +53,6 @@ def quadratic_sieve(n, N):
     print("\nExponent Matrix Mod 2 :")
     for vector in exponent_vectors:
         print(f"{vector}")
-        
-        
-       
-        
-        
-        
-   
     # Step 9: Linear Algebra - Find the kernel of the transpose
     def find_quadratic_relations(factorizations):
         """ Solve the system using linear algebra mod 2 and return null space vectors. """
@@ -158,3 +151,4 @@ def quadratic_sieve(n, N):
 n = 18446744073709551617 # Replace with the composite number you want to factorize
 N = 20000  # Range for x values
 result = quadratic_sieve(n, N)
+
