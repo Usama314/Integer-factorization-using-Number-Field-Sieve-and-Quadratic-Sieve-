@@ -1,0 +1,2 @@
+# Integer-factorization-using-Number-Field-Sieve-and-Quadratic-Sieve-
+This repository provides simple implementations of the Number Field Sieve (NFS) and the Quadratic Sieve (QS) for integer factorization. While the codes are not highly optimized, they serve as useful examples for understanding the fundamental principles. NFS is implemented using Python and SageMath, while QS is implemented in Python.
